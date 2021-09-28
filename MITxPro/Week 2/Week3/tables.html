@@ -1,0 +1,20 @@
+Tables Exercise. Create multiplication matrix 1 - 9
+
+<script>
+
+    let multiplier = 1;
+    let output = ''
+
+    for(let i = 1; i <=10; i++){
+        let multiple = i*multiplier;
+        output += multiple + ' ';
+        console.log(output);
+
+        if(i % 10 === 0){
+            output += multiple + '\n';
+            multiplier +=1;
+            output += i*multiplier + ' ';
+        
+        }
+    }
+</script>

@@ -1,0 +1,35 @@
+Sample debug file
+
+<script>
+
+/* console.log('Hello')
+
+    let list ='';
+
+    const names = ['john', 'paul', 'peter'];
+
+    for(let i = 0; i < names.length; i++){
+        console.log(i);
+        const name = names[i] + ' ';
+        list +=name;
+    }
+
+    console.log(list)
+    */
+
+   let notFound = true;
+
+   let counter = 0;
+
+   while(notFound){
+       if(counter ===5000){
+           notFound = false; 
+           console.log('found 5000');
+       }
+       else{
+           console.log('Still looking');
+       }
+       counter +=1;
+   }
+
+</script>
